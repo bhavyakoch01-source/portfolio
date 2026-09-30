@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhavya Kochar - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+  * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #000000;
+  color: #e0e0e0;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 15px 20px;
+  line-height: 1.6;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222222;
+  padding: 12px 0;
+  font-size: 18px;
+}
+
+nav strong {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+nav a{
+  margin-left: 14px;
+  color: #38bdf8;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #7dd3fc;
+}
+
+section {
+  padding: 22px;
+  border-bottom: 1px solid #222222;
+}
+
+h1 {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+h2 {
+  font-size: 21px;
+  color: #38bdf8;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #38bdf8;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #7dd3fc;
+  margin-bottom: 8px;
+}
+
+p {
+  font-size: 15px;
+  margin: 6px ;
+  color: #cccccc;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 8px ;
+  color: #cccccc;
+}
+
+li {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+li strong, p strong {
+  color: #f3f4f6;
+}
+
+.button1 {
+  margin-top: 12px;
+}
+
+.button2 {
+  display: inline-block;
+  padding: 7px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  margin-right: 8px;
+  margin-top: 4px;
+}
+
+.button-primary {
+  background-color: #38bdf8;
+  color: #000000;
+  border-color: #38bdf8;
+}
+
+.button-primary:hover {
+  background-color: #7dd3fc;
+  border-color: #7dd3fc;
+}
+
+.button-secondary {
+  background-color: #111111;
+  color: #38bdf8;
+  border: 1px solid #38bdf8;
+}
+
+.button-secondary:hover {
+  background-color: #1f2937;
+  color: #7dd3fc;
+}
+
+.contact-form {
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 4px 0 10px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: #111111;
+  color: #ffffff;
+}
+</style>
+</head>
+<body>
+
+  <nav class="navbar">
+    <strong>Bhavya Kochar</strong>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Education</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="hero">
+    <h1>Bhavya Kochar</h1>
+    <h3>Studen At Scaler School of Technology</h3>
+    <p>I build clean, simple, and responsive websites using modern web standards.</p>
+    <div class="button1">
+      <a href="#projects" class="button2 button-primary"><b>View Projects</b></a>
+      <a href="#contact" class="button2 button-secondary"><b>Contact Me</b></a>
+    </div>
+  </section>
+
+    <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I am Bhavya Kochar. I am a web developer with a passion for designing fast, accessible, and user-friendly digital experiences with clean code.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>HTML</strong></li>
+      <li><strong>CSS</strong></li>
+      <li><strong>Java</strong></li>
+      <li><strong>Git GitHub (basic)</strong></li>
+      <li><strong>Python</strong></li>
+    </ul>
+  </section>
+
+    <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Project 1:</strong> Outfit Ai - Help you to decide what you can wear.</li>
+      <li><strong>Project 2:</strong> Student Management System - Stores data of students.</li>
+      <li><strong>Project 3:</strong> House Price Predictors - Input the area and program will tell you price.</li>
+    </ul>
+  </section>
+
+    <section id="experience">
+    <h2>Education</h2>
+    <p><strong>Education: </strong>Computer Science from SST(2026 - 2030)</p>
+  </section>
+
+  <section id="contact">
+    <p>Email: <a href="#">bhavya.26bcs10191@sst.scaler.com</a></p>
+    <p>GitHub: <a href="https://github.com/bhavyakoch01-source">bhavyakoch01-source</a></p>
+    <p>linkedin: <a href="www.linkedin.com/in/bhavyakoch01">bhavyakoch01</a></p>
+
+    <form class="contact-form" action="#" method="get">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="2" placeholder="Your Message" required></textarea>
+      <button type="submit" class="button2 button-primary"><b>Send Message</b></button>
+    </form>
+  </section>
+</body>
+</html>
